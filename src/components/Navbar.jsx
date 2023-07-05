@@ -5,7 +5,6 @@ import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
 import { FiDownload } from "react-icons/fi";
 import Resume from "../assets/DINESH_RESUME.pdf";
-// import Resume from "../assets/"
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);

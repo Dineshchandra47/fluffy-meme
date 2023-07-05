@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   return (
+    
     <footer className="mx-[1rem] p-4 sm:p-6 xl:mx-[4rem] mt-[4rem]">
       <hr className="my-6 border-gray-700 sm:mx-auto lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
