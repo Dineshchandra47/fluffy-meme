@@ -4,9 +4,8 @@ import Project from "./Project";
 import realtimeChat from "../../assets/realTimeChat.png";
 import contactManager from "../../assets/contactManager.png";
 import foodRecipeApp from "../../assets/foodRecipeApp.png";
-import userManagement from "../../assets/userManagement.png"
-import activityTracker from '../../assets/acitivityTracker.png'
-
+import userManagement from "../../assets/userManagement.png";
+import activityTracker from "../../assets/acitivityTracker.png";
 
 import { motion } from "framer-motion";
 
@@ -69,14 +68,13 @@ const Projects = () => {
           desc="Developed a user management app using Node.js, Express, MongoDB, and EJS. The app allows users to create, read, update, and delete the user details."
         />
         <Project
-        img={activityTracker}
-        title = 'Activity Tracker'
-        github='https://github.com/Dineshchandra47/RECIPE-APP'
-        demo="https://todo-client-mern.netlify.app/"
-        desc='A Recipe App that lets you search for recipes and also show you some in the 
-        homepage if you’re interested in being surprised.' 
+          img={activityTracker}
+          title="Activity Tracker"
+          github="https://github.com/Dineshchandra47/RECIPE-APP"
+          demo="https://todo-client-mern.netlify.app/"
+          desc="A Recipe App that lets you search for recipes and also show you some in the 
+        homepage if you’re interested in being surprised."
         />
-        
       </motion.div>
     </div>
   );
