@@ -29,7 +29,7 @@ const Project = (props) => {
               href={props.demo}
               rel="noreferrer"
               target="_blank"
-              className="inline-flex gap-[0.5rem] items-center content-center px-3 py-2 my-2 text-sm font-medium text-center text-white rounded-md border hover:text-white border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+              className="inline-flex gap-[0.5rem]  items-center content-center px-3 py-2 my-2 text-sm font-medium text-center text-white rounded-md border hover:text-white border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
             >
               Demo
               <AiFillEye className="  w-[18px] h-[18px]" />
