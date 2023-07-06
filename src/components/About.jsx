@@ -32,7 +32,7 @@ const About = () => {
           <h1 className=" text-[2.5rem] max-md:text-[2rem]">
             I’m a Full Stack Web Developer
           </h1>
-          <p className="text-justify text-[2rem] max-md:text-[1.5rem] text-[#838697]">
+          <p className="text-justify break-words md:break-words whitespace-normal  text-[2rem] max-md:text-[1.5rem] text-[#838697]">
             I have 1.2 years of experience in Full Stack Development. I'm
             passionate about building digital products that improve the everyday
             experience for people. I'm eager to deploy on challenging projects

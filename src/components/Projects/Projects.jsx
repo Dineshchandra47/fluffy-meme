@@ -19,7 +19,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-justify  text-[3rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500"
+        className="text-justify break-words md:break-words whitespace-normal text-[3rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500"
       >
         Projects
       </motion.h1>
@@ -28,7 +28,7 @@ const Projects = () => {
         whileInView={{ x: [-110, 0], opacity: 1 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        className="text-justify  grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
+        className="text-justify  break-words md:break-words whitespace-normal grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
           img={realtimeChat}
