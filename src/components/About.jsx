@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/About.jpg";
+import aboutImage from "../assets/About.svg";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -18,10 +18,10 @@ const About = () => {
           src={aboutImage}
           alt="Me"
           initial={{ opacity: 0 }}
-          whileInView={{ x: [-100, 0], opacity: 1 }}
+          whileInView={{ y: [150, 10], opacity: 1 }}
           transition={{ duration: 1 }}
-          className=" w-[30%] h-[100%] sm:w-[300px] rounded-xl max-xl:w-[100%]"
-          viewport={{ once: true }}
+          className=" w-[30%] h-[100%] hover:cursor-pointer sm:w-[300px] rounded-xl max-xl:w-[100%]"
+          // viewport={{ once: true }}
         />
         <motion.div
           className="w-[100%] flex flex-col gap-[2rem]"
