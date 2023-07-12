@@ -17,18 +17,19 @@ const Projects = () => {
     >
       <motion.h1
         initial={{ opacity: 0 }}
-        whileInView={{ y: [-50, 0], opacity: 1 }}
+        whileInView={{ y: [-55, 0], opacity: 1 }}
         transition={{ duration: 1 }}
         className="text-justify break-words md:break-words whitespace-normal text-[3rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500"
       >
         Projects
       </motion.h1>
+
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ x: [-110, 0], opacity: 1 }}
-        transition={{ duration: 1.5 }}
-        viewport={{ once: true }}
-        className="text-justify  break-words md:break-words whitespace-normal grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
+        transition={{ duration: 1.6 }}
+        // viewport={{ once: true }}
+        className="text-justify  break-words md:break-words whitespace-normal grid grid-cols-1 gap-[5rem] ml-16 md:grid-cols-2    lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
           img={realtimeChat}
@@ -40,8 +41,8 @@ const Projects = () => {
         {/* <Project
           img={rickandmorty}
           title="Rick And Morty Characters With API"
-          github="https://github.com/yassinehaimouch/Rick-and-Morty"
-          demo="https://mortyandrick.vercel.app/"
+          github=""
+          demo=""
           desc="This project consumes The Rick and Morty API to render a beautiful interface with all characters from the show."
         /> */}
         <Project

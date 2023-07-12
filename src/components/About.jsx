@@ -20,7 +20,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           whileInView={{ y: [150, 10], opacity: 1 }}
           transition={{ duration: 1 }}
-          className=" w-[30%] h-[100%] hover:cursor-pointer sm:w-[300px] rounded-xl max-xl:w-[100%]"
+          className=" w-[30%] h-[100%] hover:cursor-pointer sm:w-[300px] rounded-xl max-xl:w-[68%]"
           // viewport={{ once: true }}
         />
         <motion.div

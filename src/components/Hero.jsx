@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero.svg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -49,12 +49,12 @@ const Hero = () => {
       <motion.img
         src={hero}
         alt="Hero"
-        className=" w-[32%] h-[100%] sm:w-[300px] rounded-xl max-xl:w-[100%]"
+        className=" w-[52%] h-[100%] sm:w-[400px] rounded-xl max-xl:w-[100%] cursor-pointer"
         // className=" sm:w-[400px] h-[600px]"
         initial={{ x: 0, opacity: 0 }}
         whileInView={{ y: [250, 0], opacity: 1 }}
         transition={{ duration: 1.5 }}
-        viewport={{ once: true }}
+        // viewport={{ once: true }}
       />
     </div>
   );
