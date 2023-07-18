@@ -28,7 +28,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ x: [-110, 0], opacity: 1 }}
         transition={{ duration: 1.6 }}
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
         className="text-justify  break-words md:break-words whitespace-normal grid grid-cols-1 gap-[5rem] ml-16 md:grid-cols-2    lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
