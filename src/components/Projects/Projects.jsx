@@ -6,6 +6,7 @@ import contactManager from "../../assets/contactManager.png";
 import foodRecipeApp from "../../assets/foodRecipeApp.png";
 import userManagement from "../../assets/userManagement.png";
 import activityTracker from "../../assets/acitivityTracker.png";
+import planets from '../../assets/planets.jpg'
 
 import { motion } from "framer-motion";
 
@@ -69,6 +70,16 @@ const Projects = () => {
           desc="Developed a user management app using Node.js, Express, MongoDB, and EJS. The app allows users to create, read, update, and delete the user details."
         />
         <Project
+          img={planets}
+          title="THE PLANETS"
+          github="https://github.com/Dineshchandra47/Planets"
+          demo="https://planets-666.netlify.app/"
+          desc="The Planets fact site is a great example of how ReactJS can be used
+          to create interactive and informative web applications. It is a well-designed 
+          and easy-to-use site that provides users with a wealth of information about the 
+          planets in our solar system."
+        />
+        <Project
           img={activityTracker}
           title="Activity Tracker"
           github="https://github.com/Dineshchandra47/RECIPE-APP"
@@ -76,6 +87,7 @@ const Projects = () => {
           desc="A Recipe App that lets you search for recipes and also show you some in the 
         homepage if you’re interested in being surprised."
         />
+        
       </motion.div>
     </div>
   );
