@@ -4,7 +4,7 @@ import memoji from "../assets/image.png";
 import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
 import { FiDownload } from "react-icons/fi";
-import Resume from "../assets/DINESH_RESUME-1.pdf";
+import Resume from "../assets/DINESH_RESUME.pdf";
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
