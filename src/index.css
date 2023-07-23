@@ -3,7 +3,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
-
+  text-wrap: balance;
   
 }
 
@@ -28,12 +28,13 @@
 
 * {
   scroll-behavior: smooth;
-  font-family: Poppins;
+  font-family: sans-serif;
   color: white;
 }
 
 html {
   background-color: #0d1117;
+  text-wrap: balance;
 }
 
 body {

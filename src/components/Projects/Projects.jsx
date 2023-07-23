@@ -30,7 +30,7 @@ const Projects = () => {
         whileInView={{ x: [-110, 0], opacity: 1 }}
         transition={{ duration: 1.6 }}
         viewport={{ once: true }}
-        className="text-justify  break-words md:break-words whitespace-normal grid grid-cols-1 gap-[5rem] ml-16 md:grid-cols-2    lg:grid-cols-2 xl:grid-cols-3 "
+        className="text-justify  md:break-words text-[1rem] whitespace-normal grid grid-cols-1 gap-[4.3rem] ml-16 md:grid-cols-2    lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
           img={realtimeChat}
