@@ -24,7 +24,8 @@ const Contact = () => {
           whileInView={{ x: [100, 0], opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <p className=" text-[1.2rem]    mb-[2rem] text-justify">
+          
+          <p className=" text-[1.2rem]  mb-[2rem] text- tracking-tight leading-7 ">
             Shoot me an email if you think we're a great fit and would like to
             work with me and let's have a great time while we're at it.
           </p>

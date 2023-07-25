@@ -20,17 +20,17 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ y: [-55, 0], opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-justify break-words md:break-words whitespace-normal text-[3rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500"
+        className="text-justify  break-words md:break-words whitespace-normal text-[3rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500"
       >
         Projects
       </motion.h1>
-
+      <div className='flex items-center justify-center '>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ x: [-110, 0], opacity: 1 }}
         transition={{ duration: 1.6 }}
         viewport={{ once: true }}
-        className="text-justify  md:break-words text-[1rem] whitespace-normal grid grid-cols-1 gap-[4.3rem]  md:grid-cols-2 mx    lg:grid-cols-2 xl:grid-cols-3 "
+        className="  tracking-tight leading-7 md:break-words text-[1rem] whitespace-normal grid grid-cols-1 gap-[4.3rem]  md:grid-cols-2 mx    lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
           img={realtimeChat}
@@ -89,6 +89,8 @@ const Projects = () => {
         />
         
       </motion.div>
+      </div>
+      
     </div>
   );
 };
