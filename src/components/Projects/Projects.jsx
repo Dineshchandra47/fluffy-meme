@@ -7,6 +7,7 @@ import foodRecipeApp from "../../assets/foodRecipeApp.png";
 import userManagement from "../../assets/userManagement.png";
 import activityTracker from "../../assets/acitivityTracker.png";
 import planets from '../../assets/planets.jpg'
+import squidGame from '../../assets/Squid game.png'
 
 import { motion } from "framer-motion";
 
@@ -79,14 +80,28 @@ const Projects = () => {
           and easy-to-use site that provides users with a wealth of information about the 
           planets in our solar system."
         />
+        
         <Project
-          img={activityTracker}
+          img={squidGame} loading="lazy"
+          title="Squid Game Web Page"
+          github="https://github.com/Dineshchandra47/REACT-PROJECTS/tree/master/squid%20game%20web%20design"
+          demo="https://squid-game-web-page.netlify.app/"
+          desc="The Squid Game website has been designed using React and Styled Components.
+          The Scroll Reveal library has been used for the animations. The website is fully responsive and 
+          includes cool reveal-on-scroll animations that draw user attention to important bits as they scroll past."
+        />
+        
+        <Project
+          img={activityTracker} loading="lazy"
           title="Activity Tracker"
           github="https://github.com/Dineshchandra47/RECIPE-APP"
           demo="https://todo-client-mern.netlify.app/"
           desc="A Recipe App that lets you search for recipes and also show you some in the 
         homepage if you’re interested in being surprised."
         />
+
+        
+        
         
       </motion.div>
       </div>
