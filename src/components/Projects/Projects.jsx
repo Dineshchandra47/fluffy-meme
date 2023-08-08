@@ -82,7 +82,7 @@ const Projects = () => {
         />
         
         <Project
-          img={squidGame} loading="lazy"
+          img={squidGame} 
           title="Squid Game Web Page"
           github="https://github.com/Dineshchandra47/REACT-PROJECTS/tree/master/squid%20game%20web%20design"
           demo="https://squid-game-web-page.netlify.app/"
@@ -92,7 +92,7 @@ const Projects = () => {
         />
         
         <Project
-          img={activityTracker} loading="lazy"
+          img={activityTracker} 
           title="Activity Tracker"
           github="https://github.com/Dineshchandra47/RECIPE-APP"
           demo="https://todo-client-mern.netlify.app/"
